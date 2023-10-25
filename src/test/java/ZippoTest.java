@@ -103,4 +103,19 @@ public class ZippoTest {
                 .statusCode(200) //assertion
         ;
     }
+    @Test
+    public void Soru4(){
+        // Soru : "http://api.zippopotam.us/us/90210"  endpoint in dönen
+        // place dizisinin dizi uzunluğunun 1 olduğunu doğrulayınız.
+        given()
+                .when()
+                .get("http://api.zippopotam.us/us/90210")
+
+                .then()
+             //   .body("places", hasSize(1))//places in item size 1 e esit mi kontrol et
+              //  .body("places", hasSize(2)) // negatif test
+                .body("places.size()", equalTo(1)) //diğer yöntem
+
+        ;
+    }
 }
