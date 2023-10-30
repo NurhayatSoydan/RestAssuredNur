@@ -237,11 +237,4 @@ public class ZippoTest {
                 .spec(responseSpec)
         ;
     }
-
-
-
-
-
-
-
 }
