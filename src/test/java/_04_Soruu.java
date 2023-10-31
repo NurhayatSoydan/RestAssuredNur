@@ -1,9 +1,9 @@
-package Model;
-
+import Model.Location;
+import Model.Place;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
-public class Soruu {
+public class _04_Soruu {
     // http://api.zippopotam.us/tr/01000  endpointinden dönen verilerden "Dörtağaç Köyü" ait
     // bilgileri yazdırınız
     @Test
