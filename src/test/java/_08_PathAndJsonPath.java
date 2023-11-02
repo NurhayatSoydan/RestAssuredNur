@@ -88,6 +88,4 @@ public class _08_PathAndJsonPath {
             System.out.println("u = " + u);
 
     }
-
-
 }
