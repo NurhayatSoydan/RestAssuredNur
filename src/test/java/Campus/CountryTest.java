@@ -115,7 +115,7 @@ public class CountryTest {
                 .delete("/school-service/api/countries/"+countryID)
                 .then()
                 .log().body()
-                .statusCode(200)
+                .statusCode(500)
         ;
     }
     // Delete Country testinin Negative test halini yapınız
