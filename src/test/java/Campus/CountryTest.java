@@ -115,7 +115,7 @@ public class CountryTest {
                 .delete("/school-service/api/countries/"+countryID)
                 .then()
                 .log().body()
-                .statusCode(500)
+                .statusCode(500)//jenkins için hata verilsin diye değiştirildi
         ;
     }
     // Delete Country testinin Negative test halini yapınız
