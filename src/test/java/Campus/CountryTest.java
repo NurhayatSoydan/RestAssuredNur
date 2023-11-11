@@ -121,7 +121,7 @@ public class CountryTest {
     // Delete Country testinin Negative test halini yapınız
     // dönen mesajın "Country not found" olduğunu doğrulayınız
     @Test(dependsOnMethods = "deleteCountry")
-    public void deleteCountryNegative()
+    public void  deleteCountryNegative()
     {
         given()
                 .spec(reqSpec)
